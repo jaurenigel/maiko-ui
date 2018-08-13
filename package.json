@@ -1,0 +1,16 @@
+{
+  "name": "maiko-ui",
+  "version": "1.0.0",
+  "description": "minimal ui framework",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp maiko-run",
+    "start": "npm run build && gulp"
+  },
+  "author": "Nigel Jaure <jaurenigel@gmail.com> (https://maiko.creativelab.co.zw)",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
