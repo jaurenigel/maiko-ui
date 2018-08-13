@@ -1,2 +1,12 @@
-/* Code
+/* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+$link-color-primary: #1EAEDB;
+$link-color-primary-hover: #0FA0CE;
+
+a {
+  color: $link-color-primary;
+}
+
+a:hover {
+  color: $link-color-primary-hover; 
+}

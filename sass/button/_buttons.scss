@@ -1,2 +1,71 @@
-/* Code
+/* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+$btn-color-base1:#555;
+$btn-color-base2:#333;
+$btn-color-primary:#33C3F0;
+$btn-color-primary-focus: #1EAEDB;
+
+.m-btn,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: $btn-color-base1;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; 
+
+}
+.m-btn:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.m-btn:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: $btn-color-base2;
+  border-color: #888;
+  outline: 0; 
+
+}
+.m-btn-primary,
+button.m-btn-primary,
+input[type="submit"].m-btn-primary,
+input[type="reset"].m-btn-primary,
+input[type="button"].m-btn-primary {
+  color: #FFF;
+  background-color: $btn-color-primary;
+  border-color: $btn-color-primary; 
+
+}
+
+.m-btn-primary:hover,
+button.m-btn-primary:hover,
+input[type="submit"].m-btn-primary:hover,
+input[type="reset"].m-btn-primary:hover,
+input[type="button"].m-btn-primary:hover,
+.m-btn-primary:focus,
+button.m-btn-primary:focus,
+input[type="submit"].m-btn-primary:focus,
+input[type="reset"].m-btn-primary:focus,
+input[type="button"].m-btn-primary:focus {
+  color: #FFF;
+  background-color: $btn-color-primary-focus;
+  border-color: $btn-color-primary-focus; 
+}

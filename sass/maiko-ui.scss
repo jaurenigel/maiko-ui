@@ -1,2 +1,23 @@
-@import 'libs/normalize';
-@import 'code/code'
+/*!
+* Maiko-UI V1.0.0
+* Copyright 2018, Nigel Jaure
+* www.maiko.creativelab.co.zw
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* Based on Skeleton
+*/
+
+@import 'base/base';
+@import 'spacing/spacing';
+@import 'typography/typo';
+@import 'button/buttons';
+@import 'links/links';
+@import 'misc/hr';
+@import 'misc/utilities';
+@import 'misc/clearing';
+@import 'forms/forms';
+@import 'list/list';
+@import 'code/code';
+@import 'tables/tables';
+@import 'grid/grid';
+@import 'misc/media-q';

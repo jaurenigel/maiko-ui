@@ -1,2 +1,25 @@
-/* Code
+/* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+button,
+.m-btn {
+  margin-bottom: 1rem; 
+}
+
+.m-input,
+.m-textarea,
+select,
+fieldset {
+  margin-bottom: 1.5rem; 
+}
+
+pre,
+blockquote,
+dl,
+figure,
+.m-table,
+p,
+.m-ul,
+.m-ol,
+form {
+  margin-bottom: 2.5rem; 
+}

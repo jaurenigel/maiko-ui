@@ -1,13 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Maiko-UI Development</title>
-    <link rel="stylesheet" href="./css/maiko-ui.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Maiko-UI Development</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/maiko-ui.css">
 </head>
+
 <body>
-  Maiko-UI
+  <!-- buttons -->
+  <a href="" class="m-btn">Hello</a>
+  <a href="" class="m-btn m-btn-primary">World</a>
+  <!-- hr -->
+  <hr class="m-hr">
+  <!-- floats -->
+  <h1 class="m-float-l">Left</h1>
+  <h1 class="m-float-r">Right</h1>
+  <div class="m-clr"></div>
+  <hr class="m-hr">
+  <!-- form -->
+  <div>
+    <input class="m-input" type="text" placeholder="hello">
+  </div>
+  <hr class="m-hr">
+  <!-- text-area -->
+  <div>
+    <textarea name="" placeholder="messages" class="m-textarea"></textarea>
+  </div>
+
+  <hr class="m-hr">
+
+  <!-- UL list -->
+  <ul class="m-ul">
+    <li>Maiko-UI</li>
+    <li>Maiko-UI</li>
+    <li>Maiko-UI</li>
+    <li>Maiko-UI</li>
+  </ul>
+
+  <!-- OL List -->
+
+  <ol class="m-ol">
+    <li>Maiko-UI</li>
+    <li>Maiko-UI</li>
+    <li>Maiko-UI</li>
+    <li>Maiko-UI</li>
+  </ol>
+
+  <hr class="m-hr">
+  <!-- Code -->
+  <pre>
+   <code class="m-code">
+     body{
+       background: #ccc;
+     }
+   </code>
+ </pre>
+
+  <hr class="m-hr">
+  <!-- .container is main centered wrapper -->
+  <div class="m-container">
+
+    <!-- m-col should be the immediate child of a .row -->
+    <div class="row">
+      <div class="m-col-6 m-col">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, tempore.</div>
+      <div class="m-col-6 m-col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, quos?</div>
+    </div>
+    <br>
+    <!-- m-col should be the immediate child of a .row -->
+    <div class="row">
+      <div class="m-col-3 m-col">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, tempore.</div>
+      <div class="m-col-3 m-col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, quos?</div>
+      <div class="m-col-3 m-col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, quos?</div>
+      <div class="m-col-3 m-col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, quos?</div>
+    </div>
+
+
+  </div>
+
 </body>
+
 </html>

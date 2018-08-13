@@ -1,0 +1,19 @@
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.m-th,
+.m-td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1; 
+}
+
+.m-th:first-child,
+.m-td:first-child {
+  padding-left: 0; 
+}
+
+.m-th:last-child,
+.m-td:last-child {
+  padding-right: 0; 
+
+}

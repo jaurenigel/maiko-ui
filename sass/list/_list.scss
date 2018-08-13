@@ -1,2 +1,26 @@
-/* Code
+/* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.m-ul {
+    list-style: circle inside; 
+}
+
+  .m-ol {
+    list-style: decimal inside; 
+}
+  .m-ol, .m-ul {
+    padding-left: 0;
+    margin-top: 0; 
+}
+
+  .m-ul .m-ul,
+  .m-ul .m-ol,
+  .m-ol .m-ol,
+  .m-ol .m-ul {
+    margin: 1.5rem 0 1.5rem 3rem;
+    font-size: 90%; 
+}
+
+  li {
+    margin-bottom: 1rem; 
+}
+  

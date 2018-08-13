@@ -1,0 +1,10 @@
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.container:after,
+.row:after,
+.m-clr {
+  content: "";
+  display: table;
+  clear: both; 
+}

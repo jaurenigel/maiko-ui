@@ -1,2 +1,78 @@
-/* Code
+/* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.m-input[type="email"],
+.m-input[type="number"],
+.m-input[type="search"],
+.m-input[type="text"],
+.m-input[type="tel"],
+.m-input[type="url"],
+.m-input[type="password"],
+.m-textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; 
+}
+
+/* Removes awkward default styles on some inputs for iOS */
+.m-input[type="email"],
+.m-input[type="number"],
+.m-input[type="search"],
+.m-input[type="text"],
+.m-input[type="tel"],
+.m-input[type="url"],
+.m-input[type="password"],
+.m-textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; 
+}
+
+.m-textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px; 
+
+}
+
+
+.m-input[type="email"]:focus,
+.m-input[type="number"]:focus,
+.m-input[type="search"]:focus,
+.m-input[type="text"]:focus,
+.m-input[type="tel"]:focus,
+.m-input[type="url"]:focus,
+.m-input[type="password"]:focus,
+.m-textarea:focus,
+select:focus {
+  border: 1px solid #33C3F0;
+  outline: 0; 
+}
+
+label,
+legend {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600; 
+}
+
+fieldset {
+  padding: 0;
+  border-width: 0; 
+}
+
+.m-input[type="checkbox"],
+.m-input[type="radio"] {
+  display: inline; 
+}
+
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: normal; 
+}
+
