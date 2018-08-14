@@ -13,3 +13,9 @@ add the links to your html file
 ```
 
 https://maiko.creativelab.co.zw - Documentation
+
+# Credits
+
+http://getskeleton.com - Skeleton CSS Boilerplate
+
+http://flexboxgrid.com/ - Flexbox Grid System
