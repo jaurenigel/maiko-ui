@@ -1,15 +1,15 @@
-.m-flex-container,
-.m-container {
+.m-flex-container-fluid,
+.m-flex-container {
   margin-right: auto;
   margin-left: auto;
 }
 
-.m-flex-container {
+.m-flex-container-fluid {
   padding-right: 2rem;
   padding-left: 2rem;
 }
 
-.m-row {
+.m-flex-row {
   box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -27,7 +27,7 @@
   margin-left: -0.5rem;
 }
 
-.m-row.m-reverse {
+.m-flex-row.m-reverse {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
   -ms-flex-direction: row-reverse;
@@ -267,7 +267,7 @@
 }
 
 @media only screen and (min-width: 48em) {
-  .m-container {
+  .m-flex-container {
     width: 49rem;
   }
 
@@ -498,7 +498,7 @@
 }
 
 @media only screen and (min-width: 64em) {
-  .m-container {
+  .m-flex-container {
     width: 65rem;
   }
 
@@ -729,7 +729,7 @@
 }
 
 @media only screen and (min-width: 75em) {
-  .m-container {
+  .m-flex-container {
     width: 76rem;
   }
 

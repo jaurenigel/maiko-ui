@@ -442,16 +442,16 @@ pre > .m-code {
   .m-offset-by-one-half.m-col {
     margin-left: 52%; } }
 
-.m-flex-container,
-.m-container {
+.m-flex-container-fluid,
+.m-flex-container {
   margin-right: auto;
   margin-left: auto; }
 
-.m-flex-container {
+.m-flex-container-fluid {
   padding-right: 2rem;
   padding-left: 2rem; }
 
-.m-row {
+.m-flex-row {
   box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -468,7 +468,7 @@ pre > .m-code {
   margin-right: -0.5rem;
   margin-left: -0.5rem; }
 
-.m-row.m-reverse {
+.m-flex-row.m-reverse {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
   -ms-flex-direction: row-reverse;
@@ -670,7 +670,7 @@ pre > .m-code {
   order: 1; }
 
 @media only screen and (min-width: 48em) {
-  .m-container {
+  .m-flex-container {
     width: 49rem; }
   .m-col-sm,
   .m-col-sm-1,
@@ -827,7 +827,7 @@ pre > .m-code {
     order: 1; } }
 
 @media only screen and (min-width: 64em) {
-  .m-container {
+  .m-flex-container {
     width: 65rem; }
   .m-col-md,
   .m-col-md-1,
@@ -984,7 +984,7 @@ pre > .m-code {
     order: 1; } }
 
 @media only screen and (min-width: 75em) {
-  .m-container {
+  .m-flex-container {
     width: 76rem; }
   .m-col-lg,
   .m-col-lg-1,
