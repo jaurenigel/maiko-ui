@@ -474,7 +474,7 @@ pre > .m-code {
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse; }
 
-.m-col.m-reverse {
+.m-flex-col.m-reverse {
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
   -ms-flex-direction: column-reverse;
