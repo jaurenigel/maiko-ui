@@ -9,6 +9,29 @@
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/maiko-ui.css">
 </head>
+<style>
+  .box,
+  .box-first,
+  .box-large,
+  .box-nested,
+  .box-row {
+    position: relative;
+    box-sizing: border-box;
+    min-height: 1rem;
+    margin-bottom: 0;
+    background: #007FFF;
+    border: 1px solid #FFF;
+    border-radius: 2px;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+  }
+
+  .box-container {
+    box-sizing: border-box;
+    padding: .5rem;
+}
+</style>
 
 <body>
   <!-- buttons -->
@@ -78,6 +101,28 @@
       <div class="m-col-3 m-col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, quos?</div>
     </div>
 
+    <hr class="m-hr">
+
+    
+    <div class="m-row m-between-xs">
+      <div class="m-col-xs-2">
+          <div class="box">
+              between
+          </div>
+      </div>
+      <div class="m-col-xs-2">
+          <div class="box">
+              between
+          </div>
+      </div>
+      <div class="m-col-xs-2">
+          <div class="box">
+              between
+          </div>
+      </div>
+  </div>
+
+  <br>
 
   </div>
 
