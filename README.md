@@ -14,6 +14,8 @@ add the links to your html file
 
 https://maiko.creativelab.co.zw - Documentation
 
+https://www.maiko.creativelab.co.zw/releases/maiko-ui-1.0.8.zip - Download Starter
+
 # Credits
 
 http://getskeleton.com - Skeleton CSS Boilerplate
