@@ -8,6 +8,7 @@
 */
 
 @import 'base/base';
+@import 'color/color';
 @import 'spacing/spacing';
 @import 'typography/typo';
 @import 'button/buttons';
@@ -22,3 +23,73 @@
 @import 'grid/grid';
 @import 'flex-grid/flex';
 @import 'misc/media-q';
+
+
+// miscs
+
+// backgrounds
+.m-bg-dark{
+    color: $m-flat-clouds;
+    background-color: $m-dark;
+}
+
+.m-bg-primary{
+    color: $m-flat-clouds;
+    background-color: $m-primary;
+}
+
+.m-bg-secondary{
+    color: $m-flat-clouds;
+    background-color: $m-secondary;
+}
+
+.m-bg-succes{
+    color: $m-flat-clouds;
+    background-color: $m-flat-emerald;
+}
+
+.m-bg-danger{
+    color: $m-flat-clouds;
+    background-color: $m-danger;
+}
+
+.m-bg-warning{
+    color: $m-black;
+    background-color: $m-material-amber;
+}
+
+.m-bg-info{
+    color: $m-flat-clouds;
+    background: $m-material-cyan;
+}
+
+.m-bg-light{
+    color: $m-black;
+    background-color: $m-flat-clouds;
+}
+
+// text-color
+
+.m-text-light{
+    color:  $m-flat-clouds;
+}
+
+.m-text-dark{
+    color: $m-dark;
+}
+
+.m-text-red{
+    color: $m-material-red;
+}
+
+.m-text-blue{
+    color:  $m-material-blue;
+}
+
+.m-text-amber{
+    color: $m-material-amber;
+}
+
+.m-text-primary{
+    color: $m-primary;
+}

@@ -5,6 +5,8 @@ $btn-color-base2:#333;
 $btn-color-primary:#33C3F0;
 $btn-color-primary-focus: #1EAEDB;
 
+@import '../color/color';
+
 .m-btn,
 button,
 input[type="submit"],
@@ -65,6 +67,32 @@ button.m-btn-primary:focus,
 input[type="submit"].m-btn-primary:focus,
 input[type="reset"].m-btn-primary:focus,
 input[type="button"].m-btn-primary:focus {
+  color: #FFF;
+  background-color: $btn-color-primary-focus;
+  border-color: $btn-color-primary-focus; 
+}
+
+.m-btn-info,
+button.m-btn-primary,
+input[type="submit"].m-btn-primary,
+input[type="reset"].m-btn-primary,
+input[type="button"].m-btn-primary {
+  color: #FFF;
+  background-color: $m-material-cyan;
+  border-color: $m-material-cyan; 
+
+}
+
+.m-btn-info:hover,
+button.m-btn-info:hover,
+input[type="submit"].m-btn-info:hover,
+input[type="reset"].m-btn-info:hover,
+input[type="button"].m-btn-info:hover,
+.m-btn-info:focus,
+button.m-btn-info:focus,
+input[type="submit"].m-btn-info:focus,
+input[type="reset"].m-btn-info:focus,
+input[type="button"].m-btn-info:focus {
   color: #FFF;
   background-color: $btn-color-primary-focus;
   border-color: $btn-color-primary-focus; 

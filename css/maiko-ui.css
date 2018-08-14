@@ -20,6 +20,8 @@ body {
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
+/* Color
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 button,
@@ -100,6 +102,8 @@ p {
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Color
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .m-btn,
 button,
 input[type="submit"],
@@ -156,6 +160,29 @@ button.m-btn-primary:focus,
 input[type="submit"].m-btn-primary:focus,
 input[type="reset"].m-btn-primary:focus,
 input[type="button"].m-btn-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
+
+.m-btn-info,
+button.m-btn-primary,
+input[type="submit"].m-btn-primary,
+input[type="reset"].m-btn-primary,
+input[type="button"].m-btn-primary {
+  color: #FFF;
+  background-color: #00BCD4;
+  border-color: #00BCD4; }
+
+.m-btn-info:hover,
+button.m-btn-info:hover,
+input[type="submit"].m-btn-info:hover,
+input[type="reset"].m-btn-info:hover,
+input[type="button"].m-btn-info:hover,
+.m-btn-info:focus,
+button.m-btn-info:focus,
+input[type="submit"].m-btn-info:focus,
+input[type="reset"].m-btn-info:focus,
+input[type="button"].m-btn-info:focus {
   color: #FFF;
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
@@ -1120,3 +1147,52 @@ pre > .m-code {
 /* Larger than tablet */
 /* Larger than desktop */
 /* Larger than Desktop HD */
+.m-bg-dark {
+  color: #ecf0f1;
+  background-color: #343a40; }
+
+.m-bg-primary {
+  color: #ecf0f1;
+  background-color: #33C3F0; }
+
+.m-bg-secondary {
+  color: #ecf0f1;
+  background-color: #6c757d; }
+
+.m-bg-succes {
+  color: #ecf0f1;
+  background-color: #2ecc71; }
+
+.m-bg-danger {
+  color: #ecf0f1;
+  background-color: #dc3545; }
+
+.m-bg-warning {
+  color: #000000;
+  background-color: #FFC107; }
+
+.m-bg-info {
+  color: #ecf0f1;
+  background: #00BCD4; }
+
+.m-bg-light {
+  color: #000000;
+  background-color: #ecf0f1; }
+
+.m-text-light {
+  color: #ecf0f1; }
+
+.m-text-dark {
+  color: #343a40; }
+
+.m-text-red {
+  color: #F44336; }
+
+.m-text-blue {
+  color: #2196F3; }
+
+.m-text-amber {
+  color: #FFC107; }
+
+.m-text-primary {
+  color: #33C3F0; }
