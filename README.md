@@ -12,7 +12,7 @@ add the links to your html file
 
 ```
 
-https://https://www.creativelab.co.zw/ui/ - Documentation
+https://www.creativelab.co.zw/ui/ - Documentation
 
 https://www.creativelab.co.zw/ui/download/maiko-ui-1.0.9.zip - Download Starter
 
