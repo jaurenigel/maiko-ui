@@ -12,9 +12,9 @@ add the links to your html file
 
 ```
 
-https://maiko.creativelab.co.zw - Documentation
+https://https://www.creativelab.co.zw/ui/ - Documentation
 
-https://www.maiko.creativelab.co.zw/releases/maiko-ui-1.0.8.zip - Download Starter
+https://www.creativelab.co.zw/ui/download/maiko-ui-1.0.8.zip - Download Starter
 
 # Credits
 
